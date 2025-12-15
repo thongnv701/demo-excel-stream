@@ -19,5 +19,9 @@ postgres = "0.19"
 excelstream = "0.11.0"
 
 [[bin]]
-name = "orders_excelstream"
-path = "src/orders_excelstream.rs"
+name = "server"
+path = "src/bin/server.rs"
+
+[[bin]]
+name = "export_stream"
+path = "src/bin/export_stream.rs"
