@@ -15,3 +15,9 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 dotenv = "0.15"
 rust_decimal = { version = "1", features = ["db-postgres"] }
+postgres = "0.19"
+excelstream = "0.11.0"
+
+[[bin]]
+name = "orders_excelstream"
+path = "src/orders_excelstream.rs"
